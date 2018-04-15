@@ -3,7 +3,7 @@
 1.1	Tujuan Penulisan Dokumen
 Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh Badan Pertanahan Nasional (BPN).
 Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. 
-Perangkat lunak yang akan dibangun untuk Badan Pertanahan Nasional (BPN) bernama Tanah Kita. 
+Perangkat lunak yang akan dibangun untuk Badan Pertanahan Nasional (BPN) bernama Tanah Kita.
 Dalam rangka membangun perangkat lunak tersebut, tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak tersebut.
 
 1.2	Lingkup Masalah
@@ -43,7 +43,8 @@ Buble			|	DFD-X-Y.Z			|	DFD adalah Data Flow Diagram
 									Y.Z adalah nomer pada buble diagram
 
 1.5	Referensi
--
+   -Pressman, Roger S. 2001. Software engineering: a practitioner’s approach 5th ed. New York : McGraw-Hill Companies, Inc.
+   -IEEE. 1998. IEEE Recommended Practice for Software Requirement Specification. New York : IEEE
 
 1.6	Deskripsi umum Dokumen (Ikhtisar)
 Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
@@ -85,4 +86,105 @@ Batasan-batasan tersebut antara lain :
 Transaksi dilakukan secara pribadi antara pemilik tanah dan pembeli.
 2. Admin hanya berlaku untuk memverifikasi data tanah yang telah masuk.
 3. Aplikasi berfungsi pada platform Windows dan Linux.
+
+3. Deskripsi Kebutuhan
+
+3.1	Kebutuhan Antarmuka Eksternal
+Perangkat Lunak Tanah Kita membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+
+3.1.1	Antarmuka pemakai
+User interface yang digunakan untuk mengoperasikan Perangkat Lunak Tanah Kita antara lain :
+-
+
+3.1.2	Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+-
+
+3.1.3	Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai berikut :
+-
+
+3.1.4	Antarmuka Komunikasi
+Antarmuka komunikasi yang digunakan untukmengoperasikanperangkat lunak antara lain :
+-
+
+3.2	Kebutuhan Fungsional
+Tabel 4 Kebutuhan fungsional
+	ID	|			Kebutuhan			|			Penjelasan
+SRS-F-		|Perangkat lunak dapat menampilkan form sign in		|Pengguna yang telah terdaftar dapat
+OUT-001									 melakukan sign in sehingga perangkat
+									 lunak perlu menampilkan form sign in
+									
+SRS-F-		|Perangkat lunak dapat menampilkan form entri		|Form entri pendaftaran ditampilkan saat
+OUT-002		 							 pengguna melakukan pendaftaran
+									 sebagai pembeli
+									 
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan dari		|Keyword yang dimasukkan oleh
+003		 pengguna, berupa keyword pencarian tanah		 pengguna dapat diterima oleh perangkat
+									 lunak
+									 
+SRS-F-OUT-	|Perangkat lunak dapat menampilkan hasil pencarian 	|Setelah pengguna memasukkan data yang dibutuhkan,
+004		 tanah							 perangkat lunak menampilkan hasil pencarian sesuai data tersebut.			
+						
+SRS-F-		|Perangkat lunak dapat menampilkan detail tanah yang 	|Setelah perangkat lunak menampilkan katalog tanah, 
+OUT-005		 dipilih						 perangkat lunak menampilkan detail tanah sesuai pilihan pengguna
+					
+SRS-F-PR-	|Perangkat lunak dapat menyediakan mode pencarian	|Untuk memilih tanah, pengguna dapat
+006		 terhadap tanah, sesuai  dengan input dari calon  	 menggunakan mode pencarian yang
+		 pembeli						 terdapat pada perangkat lunak
+		 
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan username	|Username dan password yang
+007		 dan password calon pembeli pembeli			 dimasukkan calon pembeli harus dapat
+									 diterima oleh perangkat lunak
+									 
+SRS-F-		|Perangkat lunak dapat menampilkan katalog		|Katalog memiliki informasi ukuran tanah, kelengkapan sertifikat tanah dan lokasi
+OUT-008			
+			
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan dari pengguna,	|Masukan tersebut terdapat pada form penjualan tanah, perangkat lunak harus dapat menerima masukan data pada form tersebut
+009		 berupa data tanah yang ingin dijual	
+					
+SRS-F-PR-	|Perangkat lunak dapat menyimpan data tanah		|Data tanah yang telah dimasukkan dapat
+010									 disimpan oleh perangkat lunak
+
+SRS-F-PR-	|Perangkat lunak dapat menyimpan data katalog		|Data katalog yang diperbaharui oleh
+011									 admin dapat disimpan oleh perangkat
+									 lunak
+
+SRS-F-IN-	|Perangkat lunak dapat memperbaharui katalog		|Admin dapat melakukan pembaharuan
+012									 data katalog melalui perangkat lunak
+									 yang dibuat
+									 
+SRS-F-		|Perangkat lunak dapat menampilkan form penjualan tanah	|Form tersebut digunakan untuk pemilik tanah yang ingin menjual tanahnya
+OUT-013		
+		
+SRS-F-		|Perangkat lunak dapat menampilkan menu bantuan		|Apabila pengguna mengalami kesulitan, perangkat lunak menampilkan menu bantuan yang diinginkan pengguna
+OUT-014		
+		
+SRS-F-		|Perangkat lunak dapat menampilkan informasi lokasi	|Pengguna dapat mengetahui detail lokasi tanah melalui tombol maps pada tampilan detail tanah
+OUT-015		 tanah berupa maps yang dapat di tracking dari lokasi
+		 calon pembeli
+
+3.4	Kebutuhan Non Fungsional
+Kebutuhan non fungsional yang terdapat pada perangkat lunak Tanah Kita antara lain.
+
+Tabel 7 Kebutuhan non fungsional
+	ID	|	Parameter	|	Kebutuhan		
+SRS-NF-OUT-016	|Availability		|Perangkat Lunak harus terus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal	
+					 
+SRS-NF-OUT-017	|Ergonomy		|Tampilan antarmuka web Tanah Kita mudah dipahami user dan estetikanya bagus	
+					 
+SRS-NF-PR-018	|Portability		|Perangkat Lunak dapat dipakai di platofrm Windows dan Linux					 	
+					 
+SRS-NF-OUT-019	|Response time		|Perangkat Lunak mampu menampilkan seluruh permintaan tidak lebih dari 10 detik	
+				
+SRS-NF-PR-020	|Security		|Perangkat lunak menggunakan standar enkripsi HTTPS pada enkripsi password
+
+SRS-NF-IN-021	Security		|Perangkat lunak menolak input pengguna yang akan
+					 mendaftarkan diri dengan password kurang dari 8 karakter
+		
+SRS-NF-OUT-022	|Others 1: Bahasa	|Semua tanya jawab ataupun tulisan dalam antarmuka
+					 komunikasi disediakan dalam bahasa Indonesia dan bahasa Inggris
+		
+SRS-NF-OUT-023	|Others 2 : Tampilan	|Setiap layer harus mengandung logo BPN
+		 Logo Perusahaan	
 
