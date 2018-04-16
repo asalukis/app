@@ -188,3 +188,78 @@ SRS-NF-OUT-022	|Others 1: Bahasa	|Semua tanya jawab ataupun tulisan dalam antarm
 SRS-NF-OUT-023	|Others 2 : Tampilan	|Setiap layer harus mengandung logo BPN
 		 Logo Perusahaan	
 
+
+3.7	Ringkasan Kebutuhan
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Tanah Kita.
+
+3.7.1	Kebutuhan Fungsional
+Tabel 10 Kebutuhan Fungsional
+ID		|	Deskripsi
+SRS-F-		|Perangkat lunak dapat menampilkan form sign in
+OUT-001		
+		
+SRS-F-		|Perangkat lunak dapat menampilkan form entri
+OUT-002		 pendaftaran	
+		
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan dari
+003		 pengguna, berupa keyword pencarian tanah
+		
+SRS-F-OUT-	|Perangkat lunak dapat menampilkan hasil pencarian tanah
+004		
+				
+SRS-F-		|Perangkat lunak dapat menampilkan detail tanah yang dipilih
+OUT-005		
+				
+SRS-F-PR-	|Perangkat lunak dapat menyediakan mode pencarian
+006		 terhadap tanah, sesuai  dengan input dari calon pembeli
+		
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan username
+007		 dan password calon pembeli pembeli	
+		
+SRS-F-		|Perangkat lunak dapat menampilkan katalog
+OUT-008		
+		
+SRS-F-IN-	|Perangkat lunak dapat menerima masukan dari pengguna, berupa data tanah yang ingin dijual
+009		
+		
+SRS-F-PR-	|Perangkat lunak dapat menyimpan data tanah
+010		
+SRS-F-PR-	|Perangkat lunak dapat menyimpan data katalog
+011		
+		
+SRS-F-IN-	|Perangkat lunak dapat memperbaharui katalog
+012	
+	
+SRS-F-		|Perangkat lunak dapat menampilkan form penjualan tanah
+OUT-013	
+	
+SRS-F-		|Perangkat lunak dapat menampilkan menu bantuan
+OUT-014	
+	
+SRS-F-		|Perangkat lunak dapat menampilkan informasi lokasi tanah berupa maps yang dapat di tracking dari lokasi calon pembeli
+OUT-015	
+	
+3.7.2	Kebutuhan Non Fungsional
+Tabel 11 Kebutuhan Non Fungsional
+ID		|	Deskripsi
+SRS-NF-OUT-016	|Perangkat Lunak harus terus dapat beroperasi 7 hari
+		 perminggu, 24 jam per hari tanpa gagal
+		 
+SRS-NF-OUT-017	|Tampilan antarmuka web Tanah Kita mudah
+		 dipahami user dan estetikanya bagus
+		 
+SRS-NF-PR-018	|Perangkat Lunak dapat dipakai di platofrm Windows dan
+		 Linux
+SRS-NF-OUT-019	|Perangkat Lunak mampu menampilkan seluruh permintaan tidak lebih dari 10 detik
+			
+SRS-NF-PR-020	|Perangkat lunak menggunakan standar enkripsi HTTPS pada enkripsi password	
+
+SRS-NF-IN-021	|Perangkat lunak menolak input pengguna yang akan
+		 mendaftarkan diri dengan password kurang dari 8
+		 karakter
+		
+SRS-NF-OUT-022	|Semua tanya jawab ataupun tulisan dalam antarmuka
+		 komunikasi disediakan dalam bahasa Indonesia dan bahasa Inggris
+		
+SRS-NF-OUT-023	|Setiap layer harus mengandung logo BPN
+
