@@ -1,0 +1,19 @@
+USE CASE DESCRIPTIONS
+
+Usecase Name      :      	Cari Tanah
+Actor	            :       Calon Pembeli Tanah
+Description	      :       Calon pembeli tanah melakukan input pada kolom pencarian untuk mendapatkan informasi tanah yang tersedia.
+Trigger	          :       Calon pembeli tanah membutuhkan tanah untuk dibeli.
+Type	            :       External
+Pre Conditions	  :       1.	Akun calon pembeli tanah telah terotentifikasi.
+                          2.	Database tanah telah upto-date pada sistem.
+Normal Course	    :       1.0.	Mencari tanah pada database sistem.
+                            1.	Calon pembeli tanah memasukkan kata kunci pada kolom pencarian.
+                            2.	Sistem menyeleksi tanah yang tersedia berdasarkan kata kunci.
+                            3.	Sistem menampilkan daftar tanah yang telah terseleksi.
+Post Conditions	  :       Kata kunci disimpan dalam database.
+Exceptions	      :       E.1. Input kata kunci berupa kombinasi karakter tidak tersruktur.
+                           1.	Sistem menampilkan pesan “hasil tidak ditemukan”.
+                           2.	Sistem meminta untuk memasukkan kata kunci lain.
+                           3.	User memasukkan kata kunci lain.
+                           4.	Sistem memulai kembali normal course.
