@@ -1,6 +1,6 @@
 USE CASE
 
-User/Actor I ( Calon Pembeli Tanah )	  1.	Melakukan Login.
+User/Actor I ( Calon Pembeli Tanah )	 1.	Melakukan Login.
                                         2.	Registrasi apabila belum memiliki akun.
                                         3.	Melakukan pencarian tanah.
                                         4.	Memeriksa detail tanah. 
@@ -10,6 +10,6 @@ User/Actor II ( Pemilik Tanah)         	1.	Melakukan Login.
                                         3.	Melakukan input data tanah.
                                         4.	Melakukan update data apabila ada perubahan.
 
-User/Actor III (Admin – BPN )	          1.	Melakukan login admin.
+User/Actor III (Admin – BPN )	         1.	Melakukan login admin.
                                         2.	Melakukan pengecekan dan verifikasi tanah.
 
