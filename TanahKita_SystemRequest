@@ -1,0 +1,20 @@
+SYSTEM REQUEST SISTEM INFORMASI PEMETAAN TANAH
+
+NO	ELEMEN                   URAIAN
+1	Project Sponsor		  	    Kepala Badan Pertanahan Nasional (BPN)
+
+2	Business Needs		  	    •	Menyediakan informasi seputar tanah.
+						          	    •	Menyediakan komparasi harga tanah ideal.
+					        	  	    •	Meminimalisir adanya kerugian transaksi jual beli tanah.
+                            
+3	Business Requirements	    •	Fasilitas pencarian tanah pada lokasi tertentu.
+					        		      •	Informasi tentang luas  tanah secara real dan digital.
+							              •	Informasi tentang kelengkapan dokumen tanah.
+							              •	Informasi tentang kondisi lingkungan sekitar.
+                            
+4	Business Value 			      •	Transparansi dalam transaksi jual-beli tanah.
+							              •	Menemukan tanah ideal dengan cepat.
+							              •	Pengelolaan data informasi tentang pertanahan oleh BPN semakin mudah.
+                            
+5	Special Issues			      •	Sistem dibangun berbasis mobile.
+							              •	Proses update data dilakukan oleh Badan Pertanahan Nasional.
