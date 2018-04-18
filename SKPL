@@ -94,7 +94,15 @@ Perangkat Lunak Tanah Kita membutuhkan fasilitas-fasilitas antar muka eksternal 
 
 3.1.1	Antarmuka pemakai
 User interface yang digunakan untuk mengoperasikan Perangkat Lunak Tanah Kita antara lain :
--
+a. Tampilan Awal Web
+b. Tampilan Sign In
+c. Tampilan Pencarian
+d. Tampilan Katalog Tanah
+e. Tampilan Form Posting Tanah
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut : 
+a. Keyboard
+b. Mouse
+c. Monitor
 
 3.1.2	Antarmuka Perangkat Keras
 Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
@@ -105,7 +113,7 @@ Antarmuka perangkat lunak yang digunakan oleh perangkat lunak ini adalah sebagai
 -
 
 3.1.4	Antarmuka Komunikasi
-Antarmuka komunikasi yang digunakan untukmengoperasikanperangkat lunak antara lain :
+Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
 -
 
 3.2	Kebutuhan Fungsional
