@@ -1,0 +1,20 @@
+Sistem Informasi Pemetaan dan Validasi Tanah (TanahKita)
+Kebutuhan Fungsional :
+1.	Sistem dapat melakukan input lokasi tanah yang tersedia berdasarkan data dari BPN.
+2.	Sistem dapat melakukan input kondisi tanah.
+3.	Sistem menyediakan fitur Forum Asking Question (FAQ) bagi user yang bertanya.
+4.	User dapat melakukan input informasi luas dan harga tanah.
+5.	User dapat melihat kelengkapan dokumen dari tanah yang tersedia.
+6.	Sistem menyediakan fitur pencarian tanah.
+7.	Sistem dapat memetakan lokasi tanah berdasarkan harga dan kestrategisan.
+8.	Sistem menyediakan fitur komparasi harga tanah.
+
+Kebutuhan Non Fungsional :
+1.	Operational :
+•	Aplikasi berbasis Android dan iOS.
+2.	Performance :
+•	Proses pencarian tanah hingga menampilkannya berlangsung tidak lebih dari 10 detik.
+3.	Security :
+•	Sistem aplikasi dan databse di lengkapi password. 
+4.	Cultural & Political :
+•	Sistem dapat dioperasikan dalam Bahasa Indonesia dan Bahasa Inggris.
