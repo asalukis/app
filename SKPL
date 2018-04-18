@@ -96,9 +96,14 @@ Perangkat Lunak Tanah Kita membutuhkan fasilitas-fasilitas antar muka eksternal 
 User interface yang digunakan untuk mengoperasikan Perangkat Lunak Tanah Kita antara lain :
 a. Tampilan Awal Web
 b. Tampilan Sign In
+c. Tampilan Pendaftaran
 c. Tampilan Pencarian
 d. Tampilan Katalog Tanah
-e. Tampilan Form Posting Tanah
+e. Tampilan Detail Tanah
+f. Tampilan Maps Tanah
+g. Tampilan Menu Bantuan
+h. Tampilan Form Posting Tanah
+
 Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut : 
 a. Keyboard
 b. Mouse
@@ -199,9 +204,17 @@ SRS-NF-OUT-022	|Others 1: Bahasa	|Semua tanya jawab ataupun tulisan dalam antarm
 SRS-NF-OUT-023	|Others 2 : Tampilan	|Setiap layer harus mengandung logo BPN
 		 Logo Perusahaan	
 
+3.5	Batasan Perancangan
+Batasan perancangan yang dipakai dalam pengembangan perangkat lunak Tanah Kita antara lain.
+
+a. Tampilan web dibuat dengan menggunakan photoshop dan corel draw 
+b. Text editor yang digunakan adalah sublime text dan/atau notepad++ 
+c. Bahasa pemrograman yang digunakan meliputi HTML, CSS, JavaScript dan PHP
 
 3.7	Ringkasan Kebutuhan
-Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Tanah Kita.
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. 
+Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, 
+semua kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak Tanah Kita.
 
 3.7.1	Kebutuhan Fungsional
 Tabel 10 Kebutuhan Fungsional
