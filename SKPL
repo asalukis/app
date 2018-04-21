@@ -87,6 +87,56 @@ Transaksi dilakukan secara pribadi antara pemilik tanah dan pembeli.
 2. Admin hanya berlaku untuk memverifikasi data tanah yang telah masuk.
 3. Aplikasi berfungsi pada platform Windows dan Linux.
 
+2.4	Lingkungan Operasi
+
+Aplikasi Client server ini akan berfungsi dengan spesifikasi :
+Server :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+•	Processor Intel Core i3 2.40 Ghz
+•	Motherboard support internet connection 
+•	2 GB RAM
+•	500 GB Hard Disk Drive utama 
+•	500 GB Hard Disk Drive backup 
+•	VGA Card Intel HD Graphics 4000
+•	NIC FastEthernet atau Gigabit Ethernet 
+•	Mouse
+•	Keyboard 
+•	Monitor
+•	Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+
+•	Browser Google Chrome/Mozilla Firefox 
+•	PDF reader
+•	Word Processor
+•	Apache HTTP Server 
+•	Mail Server
+
+DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
+Koneksi internet dengan bandwidth minimal 1 Mbps 
+Sistem operasi minimal Windows 2003 Server atau Ubuntu Server
+
+Client :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+•	Processor Intel Celeron Dual Core 1.6 GHz
+•	Motherboard support internet connection
+•	1 GB RAM
+•	50 GB Hard Disk Drive 
+•	VGA Intel HD Graphics 3000
+•	Mouse
+•	Keyboard 
+•	Monitor
+•	Power Supply
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+
+•	Browser Google Chrome/Mozilla Firefox 
+•	PDF reader
+
+Koneksi internet dengan bandwidth minimal 128 Kbps 
+OS minimal Windows XP ke atas atau Ubuntu 7.04 ke atas
+
+
 3. Deskripsi Kebutuhan
 
 3.1	Kebutuhan Antarmuka Eksternal
